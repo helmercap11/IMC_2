@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 if (peso.getText().toString().isEmpty() && altura.getText().toString().isEmpty() || peso.getText().toString().isEmpty() || altura.getText().toString().isEmpty()) {
-                    Toast.makeText(MainActivity.this, "Por Favor Preencha Todos os Campos", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Por Favor Preencha os Campos", Toast.LENGTH_SHORT).show();
 
                 }
                 else {
